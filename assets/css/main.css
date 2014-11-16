@@ -1,0 +1,295 @@
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Global Values */
+
+.taco {
+  padding-top: 50px;
+}
+
+.taco p {
+  color: #2f2f2f;
+}
+
+.taco t {
+  color: #34495e;
+  font-weight: 700;
+}
+
+.taco imp {
+  padding: 6px;
+  color: white;
+  background: #34495e;
+}
+
+.taco more {
+  color: #95a5a6;
+}
+
+.sauce {
+  padding-top: 50px;
+}
+
+.sauce p {
+  color: #2f2f2f;
+}
+
+.sauce t {
+  color: #34495e;
+  font-weight: 700;
+}
+
+.sauce imp {
+  padding: 6px;
+  color: white;
+  background: #34495e;
+}
+
+.sauce more {
+  color: white;
+}
+
+
+sm {
+  font-size: 12px;
+}
+
+
+/*---------------------------------------------------
+ navbar
+---------------------------------------------------*/
+
+#section-navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	overflow: visible;
+	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section-navbar a {
+  color: #fff;
+}
+
+#navbar-inner {
+	background: #2f2f2f;
+	line-height: 0;
+	text-align: center;
+}
+
+#section-navbar ul#nav {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+
+	border-right: 1px solid #222;
+
+}
+
+#section-navbar ul#nav > li {
+	display: block;
+    float: left;
+    padding: 0;
+}
+
+
+#section-navbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222;
+}
+
+#section-navbar ul#nav a:hover {
+	background: #222;
+	text-decoration: none;
+	 border-left: 1px solid #111;
+}
+
+#section-navbar ul#nav .active a {
+	background: #44bbaa;
+	border-left: 1px solid #111;
+}
+
+#section-navbar ul#nav .active a:hover {
+	background: #44bbaa;
+}
+
+#section-navbar i {
+	font-size: 25px;
+}
+
+
+/*---------------------------------------------------
+	SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+#headerwrap {
+	background: url(https://i.imgur.com/s4FrstV.jpg) no-repeat center top;
+	margin-top: 60px;
+	padding-top:350px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	font-size: 80px;
+	color: white;
+}
+
+#headerwrap h3 {
+	font-size: 20px;
+	color: white;
+  font-weight: bold;
+}
+
+
+/* ABOUT ME */
+
+#intro {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+} 
+
+#intro h5, p {
+	color: white;
+}
+
+#intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+
+/* PORTFOLIO*/
+#work {
+  background: #2c3e50;
+  color: white;
+}
+
+#work h5, p {
+  color: white;
+}
+
+#work i {
+  color: white;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+/*FOOTER*/
+#footwrap {
+	background: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footwrap p {
+	color: white;
+}
+
+#footwrap h5 {
+	color: white;
+}
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	padding-right: 8px;
+	color: #1abc9c;
+}
+
+
+
